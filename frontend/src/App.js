@@ -1,7 +1,11 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes, Route } from "react-router-dom";
+import Lobby from "./pages/Lobby/Lobby";
+
 const App = () => {
   return (
     <div>
-      <h1>hello world</h1>
+       <Lobby title="Remote Sessions"/>
     </div>
   );
 }
